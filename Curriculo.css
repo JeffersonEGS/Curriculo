@@ -1,0 +1,244 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;}
+
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1140px;
+    min-height: 600px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+
+.container .lado-esquerdo{
+    position: relative;
+    background: #470018;
+    padding: 20px;
+}
+
+.perfil{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.perfil .eu{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    overflow: hidden;
+}
+.perfil h5{
+    color: #FFF;
+}
+
+.perfil .eu img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.perfil h2{
+    color: #fff;font-size: 1.5em;
+    margin-top:20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.8em;
+}
+
+.perfil h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.contato {
+    padding-top: 40px;
+}
+
+.titulo{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contato ul{
+   position: relative; 
+}
+
+.contato ul li{ 
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contato ul li .icon{ 
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+
+.contato ul li span{ 
+    color: #fff;
+    font-weight: 300;
+}
+
+.formacao li{
+    margin-bottom:15px;
+}
+
+.formacao h5{
+    color: #03a9f4;
+    font-weight: 500;
+}
+
+.formacao h4:nth-child(2){
+    color: #fff;
+    font-weight: 500;
+}
+
+.formacao h4{
+    color: #fff;
+    font-weight: 300;
+}
+
+
+
+
+.container .direito{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.about{
+    margin-bottom: 50px;
+}
+
+.about:last-child{
+    margin-bottom: 0;
+}
+
+.titulo2{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+p{
+    color: #333;
+    font-size: 17px;
+    line-height: 1.5rem;
+}
+.exp-prof {
+    width: 100%;
+    overflow: hidden;
+}
+
+img {
+    float: left;
+    margin-right: 10px;
+    margin-top: 15px;
+    width: 60px;
+    border-radius: 50px;
+}
+
+.text {
+    overflow: hidden;
+}
+
+h3,
+p {
+    margin: 0;
+}
+.text p span{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+}
+  
+.about .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.about .box{
+    min-width: 150px;
+}
+
+.about .box h5{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+}
+
+.about .box .text h4{
+    text-transform: uppercase;
+    color: #003147;
+    font-size: 16px;
+}
+
+.about .box .text span{
+    text-transform: uppercase;
+    color: #03a9f4;
+}
+
+.skills .box{
+    position: relative;
+    width: 100%;
+}
+
+.skills .box p span{
+    text-transform: uppercase;
+    color: #03a9f4;
+    font-weight: 500;
+}
+
+footer {
+    background-color: #FFF;
+    margin-top: 300px;
+}
+
+footer img {
+    margin-left: 200px;
+}
+.nome p{
+    margin-left: 1000px;
+    text-align: center;
+    color: #000;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+ul li {
+    list-style: none;
+}
